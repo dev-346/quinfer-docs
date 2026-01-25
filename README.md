@@ -10,9 +10,12 @@ In short, TeachLens helps teachers see their class clearly and teach with confid
 
 ### 📚 Full Documentation
 
-**For complete user guides and detailed instructions, please visit our official documentation website:**
-
-[**https://github.com/dev-346/teachlens-docs**](https://github.com/dev-346/teachlens-docs)
+- **[Getting Started](./docs/getting-started.md)**: A guide to the core concepts of TeachLens.
+- **[Initial Setup](./docs/setup.md)**: Step-by-step instructions for license activation and API key configuration.
+- **[Running a Diagnostic Quiz](./docs/running-diagnostics.md)**: How to run a live quiz session with your students.
+- **[Understanding Results](./docs/understanding-results.md)**: How to interpret the AI-powered analysis.
+- **[Offline QR Mode](./docs/offline-qr-mode.md)**: Submitting responses without a live network connection.
+- **[Privacy and Data](./docs/privacy-and-data.md)**: Our commitment to keeping your data secure and local.
 
 ---
 
@@ -26,4 +29,3 @@ It is a **teaching awareness system**.
 
 ### 📫 Support
 📧 devangwangde@gmail.com
-
