@@ -16,117 +16,136 @@ All analysis happens locally, keeping student data fully under the teacher’s c
 
 ## 🔐 Privacy-First by Design
 
-TeachLens is built with strict data privacy principles.
+TeachLens is built with a core commitment to data privacy. All student data, assessments, and results are stored exclusively on the teacher's local device—no cloud databases, no central servers, and no student accounts required. Quizzes are conducted over your local Wi-Fi network, so no student information is ever uploaded to the internet. Because you provide your own AI API key and all data stays on your computer, you retain full ownership and control over your classroom data, making TeachLens a secure choice for any educational setting.
 
-| ✅ What TeachLens DOES                                    | ❌ What TeachLens DOES NOT do          |
-| :-------------------------------------------------------- | :------------------------------------- |
-| Stores all data locally on the teacher’s device           | No cloud database                      |
-| Conducts quizzes over the local network (LAN)             | No student data uploaded to servers    |
-| Uses teacher-provided AI API keys only for processing     | No central backend storage             |
-| Keeps full ownership of student data with the teacher     | No tracking or analytics collection    |
+## 🚀 Getting Started: Initial Setup
 
-**Your classroom data never leaves your system.**
+This one-time setup will get you up and running with TeachLens.
 
-This makes TeachLens suitable for:
-- Schools
-- Coaching institutes
-- Tuition centers
-- Privacy-sensitive classrooms
+### Step 1: Activate Your License
 
-## 🧠 What TeachLens Does
+The first time you open TeachLens, you will be prompted to enter your license key.
 
-TeachLens goes beyond grading. It analyzes:
--   Student answer patterns
--   Common incorrect choices
--   Error mechanisms
--   Conceptual vs procedural mistakes
+1.  **Find Your Key:** Your license key was sent to the email address you used during purchase. It's a long string of characters.
+2.  **Enter the Key:** Copy the entire key and paste it into the activation field.
+3.  **Activate:** Click the "Activate" button.
 
-Then translates this into clear teaching decisions.
+Once activated, your license is locked to your device and cannot be used on another computer.
 
-### 🎯 Teaching Decision Support
+### Step 2: Get Your Google AI API Key
 
-Each diagnostic ends with one of the following statuses:
+TeachLens uses Google's powerful Gemini models to generate high-quality assessment content. To use this feature, you need an API key from Google AI Studio. Your key is stored securely and locally on your device.
 
-| Status                | Meaning                                       |
-| :-------------------- | :-------------------------------------------- |
-| 🟢 Move On            | Strong understanding; proceed                 |
-| 🟡 Practice Required  | Minor errors; accuracy improvement needed   |
-| 🟠 Review Suggested   | Understanding uneven; clarify key ideas       |
-| 🔴 Reteach Required   | Foundational misconception detected           |
+1.  **Visit Google AI Studio:** Open your web browser and go to [https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey).
+2.  **Sign In:** Sign in with your Google account.
+3.  **Create API Key:** Click on **"Create API key"**. You can create a key in a new or existing Google Cloud project. Follow the on-screen instructions.
+4.  **Copy Your Key:** A new API key will be generated. It's a long string of random characters. Click the copy icon next to it.
 
-Teachers are told what to do next, not just what went wrong.
+> **Free vs. Paid Usage:** Google provides a generous **free tier** for the Gemini API which is sufficient for most teachers' day-to-day needs. If you are a heavy user and generate a very large number of assessments, you may need to enable billing on your Google Cloud project to move to a pay-as-you-go plan.
 
-### 📊 Diagnostic Insights
+> **Important:** Treat your API key like a password. Do not share it publicly.
 
-TeachLens automatically generates:
--   Primary learning concern
--   Secondary supporting weaknesses
--   Instructional focus (concept rebuild / guided practice / enrichment)
--   Teaching move suggestions
--   Student grouping for small-group instruction
+### Step 3: Configure TeachLens Settings
 
-### 👥 Student Grouping
+Now, let's add your new API key to TeachLens.
 
-Students are automatically grouped into:
--   **Concept Rebuild** — needs foundational reteaching
--   **Guided Practice** — understands concept but needs accuracy
--   **Enrichment** — ready for challenge
+1.  **Navigate to Settings:** In the TeachLens app, click on the **Settings** icon in the left-hand sidebar.
+2.  **Paste Your Key:** In the "Gemini API Key" field, paste the key you copied from Google AI Studio.
+3.  **Select a Model (Optional):**
+    *   **Gemini 1.5 Flash:** Recommended for most users. It's fast and provides a great balance of quality and cost.
+    *   **Gemini 1.5 Pro:** More powerful for complex topics, but slightly slower.
+4.  **Save Settings:** Click the **"Save All Settings"** button.
 
-This supports differentiated instruction without manual analysis.
+You are now ready to start creating assessments!
 
-### 📝 AI-Powered Assessment Creation
-
-Teachers can generate questions using:
--   Topic names
--   Lesson text
--   Keywords or instructions
-
-Supports:
--   MCQs
--   Word problems
--   Conceptual reasoning
--   Multi-step questions
--   Adjustable difficulty levels
-
-Teachers must provide their own AI API key, ensuring transparency and cost control.
 
 ## How to Use the App
 
-### Step 1: Network Setup (Crucial for In-Class Use)
+### The Dashboard: Your Command Center
 
-For the local network features to work, all devices **must be connected to the same standard Wi-Fi network**.
+The **Dashboard** is the first page you'll see after setting up. It's your mission control for understanding what's happening in your classroom. It surfaces the most important information, helping you decide what to focus on. Here's what you'll find:
 
--   ✅ **Ideal Setup:** Connect the teacher's laptop and all student devices to a single, stable Wi-Fi router (e.g., your school's Wi-Fi, a home router, or a portable travel router). This is the recommended method for reliable performance.
--   ❌ **Unreliable Setup:** Using a **mobile hotspot** is **not recommended**. Most mobile hotspots isolate connected devices from each other for security, which will prevent student devices from finding and connecting to the teacher's session. If you must use a hotspot, ensure that "AP Isolation" or "Client Isolation" is turned off in its settings.
+-   **Action Alerts:** The most urgent tasks that need your attention, like a diagnostic quiz that's ready to be analyzed or a class that requires an immediate reteaching session.
+-   **Priority Learning Gaps:** Highlights the most critical, recurring misconceptions that the AI has identified across different classes and subjects.
+-   **Tomorrow’s Focus:** A concise, AI-generated to-do list for your next lesson, based on the results of your latest diagnostic.
+-   **Recent Assessments:** Quick access to the assessments you've created most recently.
 
-### Step 2: Teacher - Create and Share a Diagnostic Quiz
+### Creating a New Assessment
 
-1.  **Create Assessment:** Navigate to **New Assessment** and fill out the form. Make sure to select **"Class Diagnostic Quiz"** as the type.
-2.  **Finalize & Start Session:** After generating, you'll be on the edit page. Navigate to the **Diagnostics** page and click on your newly created quiz. This automatically takes you to the results page and starts a "listening" session for students. **Keep this page open to receive responses.**
-3.  **Share the Session:** Click the **Share** button. A dialog will appear with a **QR Code** and a **6-Character Quiz Code**.
+The core of TeachLens is its powerful AI-powered assessment generator. You can create two main types of assessments from the **New Assessment** page:
 
-### Step 3: Student - Join and Take the Quiz
+*   **Standard Assessment:** Perfect for generating homework, in-class worksheets, or practice tests.
+*   **Class Diagnostic Quiz:** Designed to be run live in the classroom to identify student misconceptions in real-time.
 
-1.  **Connect to Wi-Fi:** The student ensures their device is on the same Wi-Fi network as the teacher.
+**To create an assessment:**
+
+1.  Navigate to **New Assessment** from the sidebar.
+2.  Fill out the form with the details of your assessment. You can provide the content source by entering a **Topic** (e.g., "Linear Equations"), pasting in **Lesson Text**, or eventually, uploading a document.
+3.  Configure the number and type of questions you want (e.g., 5 MCQs, 2 Short Answer).
+4.  Click **"Generate Questions"**. The AI will create a new assessment based on your specifications.
+5.  After generation, you are taken to the **Edit Assessment** screen where you can review and finalize the questions.
+
+### Downloading PDFs for Printing
+
+For any assessment you create, you can easily generate print-ready documents, which is ideal for standard assessments used as worksheets or homework.
+
+1.  After creating or opening an assessment from the **Library** or **Diagnostics** page, you'll be on the **Edit Assessment** screen.
+2.  Click the **Download PDFs** button.
+3.  TeachLens will generate and save two PDF files to your computer:
+    *   **Question Paper:** A clean document containing only the questions and options, perfect for display or as a reference.
+    *   **Worksheet Version:** A document with dedicated answer spaces below each question, ideal for printing and distributing to students.
+    
+### The Library Page
+
+The **Library** page (accessible from the sidebar) is the central archive for every assessment you've created, both standard and diagnostic. From here, you can:
+- Browse and search all your past assessments.
+- Open an assessment to view, edit, or download it again.
+- Manage your assessments, including deleting old ones.
+
+### Running a Live Diagnostic Quiz
+
+This feature turns your computer into a local server, allowing students to connect, take a quiz, and submit their responses in real-time.
+
+#### A Note on Local Network Setup
+
+For the live quiz features to work, all devices **must be connected to the same local Wi-Fi network**.
+
+-   ✅ **Recommended Setup:** Connect the teacher's computer and all student devices to a single, stable Wi-Fi router (e.g., your school's Wi-Fi or a home router). This is the most reliable method.
+-   📱 **Mobile Hotspot:** A mobile hotspot from a phone can also be used. However, some hotspots have a security feature that can prevent devices from connecting to each other. If you experience issues, this may be the cause. A portable travel router is often a great alternative in these situations.
+
+#### Teacher: Start and Share the Session
+
+1.  **Create Quiz:** First, create an assessment, making sure to select **"Class Diagnostic Quiz"** as the type.
+2.  **Go to Diagnostics:** From the sidebar, click on **Diagnostics**. This page lists all of your diagnostic quizzes.
+3.  **Start Session:** Click on your newly created quiz. This takes you to the results page and automatically starts a "listening" session. **You must keep this page open to receive student responses.**
+4.  **Share with Students:** Click the **Share** button. A dialog will appear with a **QR Code** and a **6-Character Quiz Code**.
+
+#### Student: Join and Take the Quiz
+
+1.  **Connect to Wi-Fi:** Ensure the student device is on the same Wi-Fi network as the teacher.
 2.  **Join the Session:**
-    *   **Option A (Easiest):** Scan the QR code on the teacher's screen.
-    *   **Option B:** Open a browser, navigate to the app's join page (e.g., `http://<teacher-ip>:3000/quiz/join`), and enter the 6-character code.
-3.  **Enter Name & Take Quiz:** The student enters their full name. The quiz will load automatically. The status indicator at the top should change from "Connecting..." to **"Connected to Teacher"**.
-4.  **Submit:** The student clicks "Submit". The response is sent directly to the teacher's device.
+    *   **Option A (Easiest):** Scan the QR code on the teacher's screen using the device camera.
+    *   **Option B:** Open a browser, navigate to the app's join page (e.g., `http://<teacher-ip>:3000/quiz/join`), and enter the 6-character code. The teacher's IP address will be displayed in the Share dialog.
+3.  **Enter Name & Take Quiz:** Enter your full name. The quiz will load automatically. The status indicator should change to **"Connected to Teacher"**.
+4.  **Submit:** Click "Submit" to send the response directly to the teacher's device.
 
-### Step 4: Teacher - View Live Results & Analyze
+#### Teacher: View Live Results & Analyze
 
-1.  **Receive Responses:** As students submit, their responses will arrive on your device in real-time.
-2.  **Analyze Results:** On the diagnostic results page, click the **"Analyze Results"** button. The page will update with a full breakdown of class performance, common misconceptions, and AI-powered teaching recommendations.
-3.  **Generate Follow-ups:** Use the "Action Center" to generate a reteaching plan or an adaptive follow-up quiz based on the analysis.
+1.  **Receive Responses:** As students submit, their responses will appear on your results page in real-time. The dashboard will show you how many students have responded.
+2.  **Analyze Results:** Once you have enough responses, click the **"Analyze Results"** button. The AI will perform a deep analysis of the answers. The page will update with a full breakdown, including:
+    *   **Teaching Decision Status:** A clear, color-coded recommendation on what to do next (e.g., 🔴 Reteach Required, 🟡 Practice Required, 🟢 Move On).
+    *   **Primary Learning Concern:** A plain-language explanation of the biggest conceptual misunderstanding in the class.
+    *   **Question-by-Question Insights:** A breakdown of each question, showing common wrong answers and an AI-powered insight into *why* students made those errors.
+    *   **Student Grouping:** Students are automatically clustered into groups like "Concept Rebuild" or "Guided Practice," allowing for easy differentiated instruction.
+3.  **Generate Follow-ups:** Use the "Action Center" on the results page to generate a customized **Reteaching Plan** or an **Adaptive Follow-up Quiz** that targets the identified weak areas.
 
 ### Offline Submission with QR Codes (`Collect Responses` page)
 
-In cases where a real-time connection isn't possible, TeachLens provides a robust offline option:
+In cases where a real-time Wi-Fi connection isn't possible or a student's device disconnects, TeachLens provides a robust offline submission option.
 
-1.  **Student Finishes Quiz:** If a student cannot connect to the teacher's session, after they finish the quiz, a QR code will be displayed on their screen. This QR code contains their complete, encrypted response.
+1.  **Student Finishes Quiz:** If a student cannot connect to the teacher's session (or loses connection), after they finish the quiz, a unique QR code will be displayed on their screen. This QR code contains their complete, encrypted response.
 2.  **Teacher Scans Code:** The teacher navigates to the **"Collect Responses"** page in the app. Using the device's camera, they can scan the QR code directly from the student's screen.
-3.  **Instant Import:** The student's response is instantly and securely imported into the diagnostic results, ready for analysis.
+3.  **Instant Import:** The student's response is instantly and securely imported into the diagnostic results, ready for analysis alongside the live responses.
 
 ## 🧭 Philosophy Behind TeachLens
 
@@ -145,16 +164,6 @@ It is a **teaching awareness system**.
 -   Coaching institutes
 -   Educators seeking data-informed teaching
 -   Teachers who want clarity, not complexity
-
-## 🔒 Security & Trust
-
--   No student accounts
--   No personal data collection
--   No external storage
--   No vendor lock-in
--   Fully teacher-controlled system
-
-TeachLens respects classrooms as private learning spaces.
 
 ## 📫 Support
 
