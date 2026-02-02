@@ -11,7 +11,23 @@ The first time you open TeachLens, you will be prompted to enter your license ke
 
 Once activated, your license is locked to your device and cannot be used on another computer.
 
-## Step 2: Get Your Google AI API Key
+## Step 2: Set Your Password
+For enhanced security, TeachLens requires you to set up a password to protect your local data. This ensures that only you can access your assessments, student responses, and analysis results.
+
+The first time you launch TeachLens after activating your license, you will be guided through the password creation process.
+
+1.  **Enter Your New Password:** Choose a strong, memorable password.
+2.  **Confirm Your Password:** Re-enter the same password to ensure there are no typos.
+3.  **Save:** Click "Set Password" to secure your account.
+
+From then on, you will be asked to enter this password every time you open the application.
+
+### Forgetting Your Password
+If you forget your password, you can use the "Forgot Password" link on the login screen. This will require you to re-verify your original license key to reset access.
+
+> **Important:** Your password only protects the data on your local device. It is not stored online and cannot be recovered by TeachLens support if you lose both your password and your license key.
+
+## Step 3: Get Your Google AI API Key
 TeachLens uses Google's powerful Gemini models to generate high-quality assessment content. To use this feature, you need an API key from Google AI Studio. Your key is stored securely and locally on your device.
 
 1.  **Visit Google AI Studio:** Open your web browser and go to [https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey).
