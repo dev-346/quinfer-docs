@@ -18,7 +18,7 @@ The first time you launch TeachLens after activating your license, you will be g
 
 1.  **Enter Your New Password:** Choose a strong, memorable password.
 2.  **Confirm Your Password:** Re-enter the same password to ensure there are no typos.
-3.  **Save:** Click "Set Password" to secure your account.
+3.  **Save:** Click "Set Password" to secure the application.
 
 From then on, you will be asked to enter this password every time you open the application.
 
