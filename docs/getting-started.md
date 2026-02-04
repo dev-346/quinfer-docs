@@ -39,7 +39,7 @@ TeachLens uses Google's powerful Gemini models to generate high-quality assessme
 
 > **Important:** Treat your API key like a password. Do not share it publicly.
 
-## Step 3: Configure TeachLens Settings
+## Step 4: Configure TeachLens Settings
 Now, let's add your new API key to TeachLens.
 
 1.  **Navigate to Settings:** In the TeachLens app, click on the **Settings** icon in the left-hand sidebar.
