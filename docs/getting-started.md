@@ -42,7 +42,7 @@ TeachLens uses Google's powerful Gemini models to generate high-quality assessme
 ## Step 4: Configure TeachLens Settings
 Now, let's add your new API key to TeachLens.
 
-1.  **Navigate to Settings:** In the TeachLens app, click on the **Settings** icon in the left-hand sidebar.
+1.  **Navigate to Settings:** In the TeachLens app, click on the **Settings** icon in the application header or the left-hand sidebar.
 2.  **Paste Your Key:** In the "Gemini API Key" field, paste the key you copied from Google AI Studio.
 3.  **Select a Model (Optional):**
     *   **Gemini 1.5 Flash:** Recommended for most users. It's fast and provides a great balance of quality and cost.
