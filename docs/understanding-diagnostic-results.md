@@ -1,4 +1,4 @@
-# 📊 Understanding Diagnostic Results
+# 📊 Understanding Diagnostic Quiz Results
 
 After running a diagnostic quiz, TeachLens provides a powerful, AI-driven analysis of your students' performance. This guide explains how to interpret the results and what actions you can take.
 
