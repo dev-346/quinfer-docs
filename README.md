@@ -30,7 +30,7 @@ This allows teachers to spend less time analyzing and more time teaching.
 - **[Getting Started](./docs/getting-started.md)**: A guide to setup TeachLens.
 - **[Generating a Question Paper](./docs/generating-question-papers.md)**: How to generate a question paper for your students.
 - **[Running a Diagnostic Quiz](./docs/running-diagnostic-quizzes.md)**: How to run a live quiz session with your students.
-- **[Understanding Results](./docs/understanding-results.md)**: How to interpret the AI-powered analysis.
+- **[Understanding Diagnostic Quiz Results](./docs/understanding-diagnostic-quiz-results.md)**: How to interpret the AI-powered analysis.
 - **[Privacy and Data](./docs/privacy-and-data.md)**: Our commitment to keeping your data secure and local.
 
 ---
