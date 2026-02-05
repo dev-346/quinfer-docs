@@ -19,7 +19,7 @@ For the live quiz feature to work, the teacher's computer and all student device
 ### Step 2: Start the Listening Session
 - You can start a session in two ways:
     - After creating/editing a quiz, click the **"Start & Share Session"** button.
-    - Navigate to **Diagnostics**, find your quiz, and click its action button (e.g., "View Progress").
+    - Navigate to **Diagnostics**, find your quiz, and click it from the table.
 - This takes you to the results page and automatically starts a "listening" session.
 - **Important:** You must keep this page open to receive live student responses. The session ends automatically when all expected responses are in.
 
@@ -53,5 +53,5 @@ For the live quiz feature to work, the teacher's computer and all student device
 
 If a student loses their connection, they can still submit their answers.
 1.  **Student Finishes Quiz:** After the student clicks "Submit" without a connection, a unique QR code will appear on their screen. This code contains their encrypted response.
-2.  **Teacher Scans Code:** On the diagnostic results page, the teacher clicks the **"Collect via QR"** button. Using the device's camera, they can scan the QR code directly from the student's screen.
+2.  **Teacher Scans Code:** On the diagnostic results page, the teacher clicks the **"Scan QR Responses"** button. Using the device's camera, they can scan the QR code directly from the student's screen.
 3.  **Instant Import:** The student's response is instantly and securely imported into the diagnostic results.
