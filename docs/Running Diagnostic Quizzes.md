@@ -19,7 +19,7 @@ For the live quiz feature to work, the teacher's computer and all student device
 ### Step 2: Start the Listening Session
 - You can start a session in two ways:
     - After creating/editing a quiz, click the **"Start & Share Session"** button.
-    - From the sidebar, go to **Diagnostics**, find your quiz, and click its action button (e.g., "View Progress").
+    - Navigate to **Diagnostics**, find your quiz, and click its action button (e.g., "View Progress").
 - This takes you to the results page and automatically starts a "listening" session.
 - **Important:** You must keep this page open to receive live student responses. The session ends automatically when all expected responses are in.
 
