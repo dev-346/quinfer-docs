@@ -1,6 +1,6 @@
 # 📄 Generating Question Papers
 
-TeachLens allows you to quickly create professional, print-ready question papers for use as worksheets, homework assignments, or in-class tests. This guide focuses on creating a "Standard Assessment."
+Quinfer allows you to quickly create professional, print-ready question papers for use as worksheets, homework assignments, or in-class tests. This guide focuses on creating a "Standard Assessment."
 
 ## ✨ How It Works
 
