@@ -1,6 +1,6 @@
 # 🔐 Privacy-First by Design
 
-TeachLens is built with a core commitment to data privacy and security. We believe you should have complete ownership of your classroom data. Here’s how we ensure it:
+Quinfer is built with a core commitment to data privacy and security. We believe you should have complete ownership of your classroom data. Here’s how we ensure it:
 
 *   **💻 All Data Stays on Your Computer:** Every piece of information—including student names, assessment questions, and diagnostic results—is stored exclusively on your local device.
 
