@@ -1,15 +1,18 @@
-# 🔐 Privacy-First by Design
+Quinfer Privacy & Data Practices
 
-Quinfer is built with a core commitment to data privacy and security. We believe you should have complete ownership of your classroom data. Here’s how we ensure it:
+Last updated: 24/2/2026
 
-*   **💻 All Data Stays on Your Computer:** Every piece of information—including student names, assessment questions, and diagnostic results—is stored exclusively on your local device.
+Quinfer is designed with a strong commitment to privacy, security, and teacher control over classroom data.
 
-*   **☁️ No Cloud Storage:** We do not use any cloud databases or central servers to store your data. Nothing is ever uploaded to us.
+Quinfer operates primarily as a local desktop application. All assessment data, including student names or identifiers entered during a session, assessment questions, and diagnostic results, is stored locally on the teacher’s computer. Quinfer does not use cloud databases or central servers to store classroom data.
 
-*   **👤 No Student Accounts:** Students can join quizzes anonymously without needing to create accounts or provide personal information beyond a name for the session.
+Quinfer does not require student accounts. Students may join quizzes using a session code and provide only a name or identifier for the duration of the activity.
 
-*   **📶 Local Network Operation:** Live diagnostic quizzes run entirely over your local Wi-Fi network. Student responses are sent directly from their device to yours, without ever touching the internet.
+Live diagnostic quizzes operate over the classroom’s local Wi-Fi network. Student responses are transmitted directly from student devices to the teacher’s computer and do not require internet connectivity.
 
-*   **🔑 You Control the AI:** Because you provide your own Google AI API key, your content is processed through your own account. We do not have access to it.
+Internet access is required only for AI-powered content generation and one-time license activation. When AI features are used, teacher-provided instructional content may be securely transmitted to the Google Gemini API using a teacher-supplied API key. Student assessment responses are not transmitted to external services for AI processing.
 
-*   **✅ Full Ownership and Control:** This local-first approach means you retain full ownership and control over all your classroom data, making TeachLens a secure and trustworthy choice for any educational setting.
+Quinfer does not sell, rent, or share student or teacher data with third parties. Data is not used for advertising or marketing purposes. Teachers and schools retain full ownership and control of all classroom data generated within the application.
+
+For questions regarding privacy or data practices, please contact:
+devangwangde@gmail.com
