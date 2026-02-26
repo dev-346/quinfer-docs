@@ -1,3 +1,6 @@
+---
+title: Quinfer Privacy & Data Practices
+---
 ## Quinfer Privacy & Data Practices
 
 **Last updated:** 24 February 2026
